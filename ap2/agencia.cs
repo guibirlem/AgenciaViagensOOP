@@ -31,4 +31,24 @@ public class Agencia
             cliente.ExibirInformacoes();
         }
     }
+
+    public object PesquisarDestinoPorCodigo(string codigo)
+    {
+        foreach (var destino in Destinos)
+        {
+            var resultado = destino.PesquisarPorCodigo(codigo);
+            if (resultado != null) return resultado;
+        }
+        return null;
+    }
+
+    public object PesquisarPacotePorNome(string nome)
+    {
+        foreach (var pacote in Pacotes)
+        {
+            var resultado = pacote.PesquisarPorNome(nome);
+            if (resultado != null) return resultado;
+        }
+        return null;
+    }
 }

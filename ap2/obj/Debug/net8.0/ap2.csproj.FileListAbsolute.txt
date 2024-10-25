@@ -12,3 +12,4 @@ C:\Users\Usuario\Desktop\c#\ap2\obj\Debug\net8.0\refint\ap2.dll
 C:\Users\Usuario\Desktop\c#\ap2\obj\Debug\net8.0\ap2.pdb
 C:\Users\Usuario\Desktop\c#\ap2\obj\Debug\net8.0\ap2.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\c#\ap2\obj\Debug\net8.0\ref\ap2.dll
+C:\Users\Usuario\Desktop\c#\ap2\obj\Debug\net8.0\ap2.sourcelink.json

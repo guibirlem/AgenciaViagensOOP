@@ -1,4 +1,4 @@
-public class PacoteTuristico : ServicoViagem
+public class PacoteTuristico : ServicoViagem, IReservavel, IPesquisavel
 {
     public Destino Destino { get; set; }
     public string Datas { get; set; } 
@@ -22,5 +22,24 @@ public class PacoteTuristico : ServicoViagem
     {
         VagasDisponiveis++;
         Console.WriteLine($"Reserva cancelada para o destino: {Destino.NomeLocal}");
+    }
+
+    // IPesquisavel funciona aqui lembrar
+    public object PesquisarPorCodigo(string codigo)
+    {
+        if (this.Codigo == codigo)
+        {
+            return this;
+        }
+        return null;
+    }
+
+    public object PesquisarPorNome(string nome)
+    {
+        if (this.Destino.NomeLocal == nome)
+        {
+            return this;
+        }
+        return null;
     }
 }
