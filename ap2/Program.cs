@@ -1,8 +1,4 @@
-﻿class Program
-{
-    static void Main()
-    {
-        Agencia agencia = new Agencia();
+﻿        Agencia agencia = new Agencia();
 
         Destino destino1 = new Destino { NomeLocal = "Paris", Pais = "França", Codigo = "201", Descricao = "Cidade " };
         agencia.CadastrarDestino(destino1);
@@ -18,5 +14,3 @@
 
         pacote1.Reservar();
         pacote1.Cancelar();
-    }
-}
