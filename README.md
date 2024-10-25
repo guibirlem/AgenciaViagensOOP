@@ -1,3 +1,5 @@
+NÃO ESTÁ PRONTO.
+ESTOU SEM LUZ E NÃO CONSEGUI TERMINAR ISSO AINDA.
 Link para o video gravado no youtube seguindo todos requisitos :
 
 
